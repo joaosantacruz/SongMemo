@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 	android:id="@+id/newmenubtn"	android:title="New" android:icon="@drawable/menu_btn_01"/>
+    <item 	android:id="@+id/openmenubtn"	android:title="Open" android:icon="@drawable/menu_btn_02">
+    	    <menu></menu>
+	</item>
+    <item 	android:id="@+id/saveas"	android:title="Save as" android:icon="@drawable/menu_btn_03"/>
+    <item 	android:id="@+id/deletemenubtn"	android:title="Delete" android:icon="@drawable/menu_btn_04"/>
+    <item 	android:id="@+id/aboutmenubtn"	android:title="About" android:icon="@drawable/menu_btn_05"/>
+    <item 	android:id="@+id/quitmenubtn"	android:title="Quit" android:icon="@drawable/menu_btn_06"/>
+</menu>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/MainLayout" xmlns:android="http://schemas.android.com/apk/res/android"	android:orientation="vertical" 
+	 android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="@drawable/bg_01">	
+
+ 
+	<TextView android:id="@+id/SongTitleLabel" android:text="UntitledSong" android:layout_width="fill_parent" android:textSize="13dp" android:gravity="center_vertical|center_horizontal" android:typeface="normal" android:layout_height="25dp" android:textColorHighlight="@color/CLR_GREEN_DARK"></TextView>
+	
+	<EditText android:id="@+id/LyricsTextBox" android:layout_width="fill_parent"
+             	android:gravity="top"
+	            android:singleLine="false" android:lines="15"
+	            android:layout_marginTop="10dp" android:layout_height="338dp" android:layout_marginBottom="5dp"
+	            android:layout_marginLeft="10dip" android:layout_marginRight="10dip" android:visibility="gone"/>
+
+	 
+	
+	<LinearLayout android:id="@+id/MainBox" android:layout_width="fill_parent" android:gravity="center_vertical|center_horizontal" android:layout_height="340dp" android:layout_marginBottom="5dp" android:layout_marginTop="8dp">
+ 
+ 
+		<RelativeLayout android:id="@+id/RelativeLayout_01" android:layout_height="fill_parent" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:background="@drawable/track_bg2" android:layout_width="70dp" android:layout_margin="2dp">
+		
+			<TextView android:id="@+id/TrackLabel_01" android:layout_above="@+id/EditText01" android:gravity="center_vertical|center_horizontal" android:paddingTop="3dp" android:textColor="@color/CLR_RED_DARK" android:background="@drawable/fcola_03" android:text="guitar1" android:layout_height="35dp" android:padding="2dp" android:layout_width="fill_parent" android:layout_marginLeft="2dp" android:layout_marginRight="2dp" android:layout_marginTop="5dp"></TextView>
+ 
+			<Button android:id="@+id/MuteBtnSelect_01" style="@style/btn_mute_sel" android:background="@drawable/btn_mute_sel_selector"  android:layout_alignParentBottom="true" android:typeface="monospace" android:gravity="center_horizontal|center" android:layout_centerHorizontal="true" android:layout_width="50dp" android:textSize="13dp" android:layout_marginBottom="52dp"/>
+			<Button android:id="@+id/RecBtnSelect_01"  style="@style/btn_rec_sel"  android:background="@drawable/btn_rec_sel_selector" android:layout_alignParentBottom="true" android:typeface="monospace" android:gravity="center_horizontal|center" android:layout_centerHorizontal="true" android:layout_width="50dp" android:layout_height="30dp" android:textSize="13dp" android:layout_marginBottom="10dp"/>
+			<SeekBar android:id="@+id/PanBar_01" android:layout_height="wrap_content" android:layout_centerHorizontal="true"  android:layout_width="50dp" android:scrollbarAlwaysDrawHorizontalTrack="false" android:layout_marginTop="190dp"></SeekBar>
+			<RelativeLayout android:id="@+id/fader_01" android:layout_width="50dp" android:background="@drawable/vol_bar_01" android:gravity="center_horizontal" android:layout_centerHorizontal="true" android:layout_marginTop="50dp" android:layout_height="120dp">
+				<Button android:id="@+id/FaderBtnUp_01" android:background="@drawable/btn_vol_up_sel_selector"  android:typeface="monospace" android:layout_marginBottom="50dp" style="@style/btn_fader_up" android:textSize="25dp" android:gravity="center_vertical|center_horizontal" android:layout_width="50dp" android:layout_height="30dp"/>
+				<TextView android:id="@+id/FaderBtnText_01" android:layout_height="wrap_content" android:text="8" android:textColor="#E64" android:textSize="40dp" android:layout_width="wrap_content" android:gravity="center_vertical|center_horizontal" android:layout_centerVertical="true" android:layout_centerHorizontal="true" android:typeface="normal"></TextView>
+				<Button android:id="@+id/FaderBtnDown_01"  android:background="@drawable/btn_vol_down_sel_selector" android:layout_alignParentBottom="true" android:typeface="monospace" android:layout_centerHorizontal="true" android:gravity="bottom|center_horizontal|center" style="@style/btn_fader_down" android:textSize="25dp" android:layout_width="50dp" android:layout_height="30dp"/>
+			</RelativeLayout>
+			
+		</RelativeLayout>
+
+
+	
+		<RelativeLayout android:id="@+id/RelativeLayout_02" android:layout_height="fill_parent" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:background="@drawable/track_bg2" android:layout_width="70dp" android:layout_margin="2dp">
+		
+			<TextView android:id="@+id/TrackLabel_02" android:layout_above="@+id/EditText01" android:gravity="center_vertical|center_horizontal" android:paddingTop="3dp" android:textColor="@color/CLR_RED_DARK" android:background="@drawable/fcola_03" android:text="guitar1" android:layout_height="35dp" android:padding="2dp" android:layout_width="fill_parent" android:layout_marginLeft="2dp" android:layout_marginRight="2dp" android:layout_marginTop="5dp"></TextView>
+
+			<Button android:id="@+id/MuteBtnSelect_02" style="@style/btn_mute_sel" android:background="@drawable/btn_mute_sel_selector"  android:layout_alignParentBottom="true" android:typeface="monospace" android:gravity="center_horizontal|center" android:layout_centerHorizontal="true" android:layout_width="50dp" android:layout_height="30dp" android:textSize="13dp" android:layout_marginBottom="52dp"/>
+			<Button android:id="@+id/RecBtnSelect_02"  style="@style/btn_rec_sel"  android:background="@drawable/btn_rec_sel_selector" android:layout_alignParentBottom="true" android:typeface="monospace" android:gravity="center_horizontal|center" android:layout_centerHorizontal="true" android:layout_width="50dp" android:layout_height="30dp" android:textSize="13dp" android:layout_marginBottom="10dp"/>
+			<SeekBar android:id="@+id/PanBar_02" android:layout_height="wrap_content" android:layout_centerHorizontal="true"  android:layout_width="50dp" android:scrollbarAlwaysDrawHorizontalTrack="false" android:layout_marginTop="190dp"></SeekBar>
+			<RelativeLayout android:id="@+id/fader_02" android:layout_width="50dp" android:background="@drawable/vol_bar_01" android:gravity="center_horizontal" android:layout_centerHorizontal="true" android:layout_marginTop="50dp" android:layout_height="120dp">
+				<Button android:id="@+id/FaderBtnUp_02" android:background="@drawable/btn_vol_up_sel_selector"  android:typeface="monospace" android:layout_marginBottom="50dp" style="@style/btn_fader_up" android:textSize="25dp" android:gravity="center_vertical|center_horizontal" android:layout_width="50dp" android:layout_height="30dp"/>
+				<TextView android:id="@+id/FaderBtnText_02" android:layout_height="wrap_content" android:text="8" android:textColor="#E64" android:textSize="40dp" android:layout_width="wrap_content" android:gravity="center_vertical|center_horizontal" android:layout_centerVertical="true" android:layout_centerHorizontal="true" android:typeface="normal"></TextView>
+				<Button android:id="@+id/FaderBtnDown_02" android:layout_alignParentBottom="true" android:typeface="monospace" android:layout_centerHorizontal="true" android:gravity="bottom|center_horizontal|center" style="@style/btn_fader_down" android:background="@drawable/btn_vol_down_sel_selector" android:textSize="25dp" android:layout_width="50dp" android:layout_height="30dp"/>
+			</RelativeLayout>
+			
+		</RelativeLayout>
+		
+		
+		
+		
+		
+		<RelativeLayout android:id="@+id/RelativeLayout_03" android:layout_height="fill_parent" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:background="@drawable/track_bg2" android:layout_width="70dp" android:layout_margin="2dp">
+		
+			<TextView android:id="@+id/TrackLabel_03" android:layout_above="@+id/EditText01" android:gravity="center_vertical|center_horizontal" android:paddingTop="3dp" android:textColor="@color/CLR_RED_DARK" android:background="@drawable/fcola_03" android:text="guitar1" android:layout_height="35dp" android:padding="2dp" android:layout_width="fill_parent" android:layout_marginLeft="2dp" android:layout_marginRight="2dp" android:layout_marginTop="5dp"></TextView>
+
+			<Button android:id="@+id/MuteBtnSelect_03" style="@style/btn_mute_sel" android:background="@drawable/btn_mute_sel_selector"  android:layout_alignParentBottom="true" android:typeface="monospace" android:gravity="center_horizontal|center" android:layout_centerHorizontal="true" android:layout_width="50dp" android:layout_height="30dp" android:textSize="13dp" android:layout_marginBottom="52dp"/>
+			<Button android:id="@+id/RecBtnSelect_03"  style="@style/btn_rec_sel"  android:background="@drawable/btn_rec_sel_selector" android:layout_alignParentBottom="true" android:typeface="monospace" android:gravity="center_horizontal|center" android:layout_centerHorizontal="true" android:layout_width="50dp" android:layout_height="30dp" android:textSize="13dp" android:layout_marginBottom="10dp"/>
+			<SeekBar android:id="@+id/PanBar_03" android:layout_height="wrap_content" android:layout_centerHorizontal="true"  android:layout_width="50dp" android:scrollbarAlwaysDrawHorizontalTrack="false" android:layout_marginTop="190dp"></SeekBar>
+			<RelativeLayout android:id="@+id/fader_03" android:layout_width="50dp" android:background="@drawable/vol_bar_01" android:gravity="center_horizontal" android:layout_centerHorizontal="true" android:layout_marginTop="50dp" android:layout_height="120dp">
+				<Button android:id="@+id/FaderBtnUp_03" android:background="@drawable/btn_vol_up_sel_selector"  android:typeface="monospace" android:layout_marginBottom="50dp" style="@style/btn_fader_up" android:textSize="25dp" android:gravity="center_vertical|center_horizontal" android:layout_width="50dp" android:layout_height="30dp"/>
+				<TextView android:id="@+id/FaderBtnText_03" android:layout_height="wrap_content" android:text="8" android:textColor="#E64" android:textSize="40dp" android:layout_width="wrap_content" android:gravity="center_vertical|center_horizontal" android:layout_centerVertical="true" android:layout_centerHorizontal="true" android:typeface="normal"></TextView>
+				<Button android:id="@+id/FaderBtnDown_03" android:layout_alignParentBottom="true" android:typeface="monospace" android:layout_centerHorizontal="true" android:gravity="bottom|center_horizontal|center" style="@style/btn_fader_down" android:background="@drawable/btn_vol_down_sel_selector" android:textSize="25dp" android:layout_width="50dp" android:layout_height="30dp"/>
+			</RelativeLayout>
+			
+		</RelativeLayout>
+		
+		
+		
+		
+		
+		
+		
+		<RelativeLayout android:id="@+id/RelativeLayout_04" android:layout_height="fill_parent" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:background="@drawable/track_bg2" android:layout_width="70dp" android:layout_margin="2dp">
+		 
+			<TextView android:id="@+id/TrackLabel_04" android:layout_above="@+id/EditText01" android:gravity="center_vertical|center_horizontal" android:paddingTop="3dp" android:textColor="@color/CLR_RED_DARK" android:background="@drawable/fcola_03" android:text="guitar1" android:layout_height="35dp" android:padding="2dp" android:layout_width="fill_parent" android:layout_marginLeft="2dp" android:layout_marginRight="2dp" android:layout_marginTop="5dp"></TextView>
+
+			<Button android:id="@+id/MuteBtnSelect_04" style="@style/btn_mute_sel" android:background="@drawable/btn_mute_sel_selector"  android:layout_alignParentBottom="true" android:typeface="monospace" android:gravity="center_horizontal|center" android:layout_centerHorizontal="true" android:layout_width="50dp" android:layout_height="30dp" android:textSize="13dp" android:layout_marginBottom="52dp"/>
+			<Button android:id="@+id/RecBtnSelect_04"  style="@style/btn_rec_sel"  android:background="@drawable/btn_rec_sel_selector" android:layout_alignParentBottom="true" android:typeface="monospace" android:gravity="center_horizontal|center" android:layout_centerHorizontal="true" android:layout_width="50dp" android:layout_height="30dp" android:textSize="13dp" android:layout_marginBottom="10dp"/>
+			<SeekBar android:id="@+id/PanBar_04" android:layout_height="wrap_content" android:layout_centerHorizontal="true"  android:layout_width="50dp" android:scrollbarAlwaysDrawHorizontalTrack="false" android:layout_marginTop="190dp"></SeekBar>
+			<RelativeLayout android:id="@+id/fader_04" android:layout_width="50dp" android:background="@drawable/vol_bar_01" android:gravity="center_horizontal" android:layout_centerHorizontal="true" android:layout_marginTop="50dp" android:layout_height="120dp">
+				<Button android:id="@+id/FaderBtnUp_04" android:background="@drawable/btn_vol_up_sel_selector"  android:typeface="monospace" android:layout_marginBottom="50dp" style="@style/btn_fader_up" android:textSize="25dp" android:gravity="center_vertical|center_horizontal" android:layout_width="50dp" android:layout_height="30dp"/>
+				<TextView android:id="@+id/FaderBtnText_04" android:layout_height="wrap_content" android:text="8" android:textColor="#E64" android:textSize="40dp" android:layout_width="wrap_content" android:gravity="center_vertical|center_horizontal" android:layout_centerVertical="true" android:layout_centerHorizontal="true" android:typeface="normal"></TextView>
+				<Button android:id="@+id/FaderBtnDown_04" android:layout_alignParentBottom="true" android:typeface="monospace" android:layout_centerHorizontal="true" android:gravity="bottom|center_horizontal|center" style="@style/btn_fader_down" android:background="@drawable/btn_vol_down_sel_selector" android:textSize="25dp" android:layout_width="50dp" android:layout_height="30dp"/>
+			</RelativeLayout>
+			
+		</RelativeLayout>
+		
+	</LinearLayout>
+	
+			
+	<SeekBar android:minHeight="20dip" android:maxHeight="20dip" android:id="@+id/CurrentPositionBar" android:layout_width="fill_parent" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:scrollbarStyle="outsideOverlay" android:layout_height="wrap_content"></SeekBar>
+		
+
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="60dp" android:layout_gravity="center_vertical|center_horizontal" android:gravity="center_vertical|center_horizontal" android:layout_marginTop="10dp">
+		<Button android:id="@+id/StopBtn" android:layout_width="60dp" android:layout_height="40dp"  android:background="@drawable/ctl_bar_01_selector" android:clickable="true" android:layout_gravity="center_vertical|center_horizontal" android:layout_marginRight="1dp" android:layout_marginLeft="1dp"/>		
+		<Button android:id="@+id/RecBtn"  android:layout_width="80dp" android:layout_height="40dp"  android:background="@drawable/ctl_bar_02_selector" android:layout_gravity="center_vertical|center_horizontal" android:layout_marginRight="1dp" android:layout_marginLeft="1dp"/>		
+		<Button android:id="@+id/PlayBtn" android:layout_width="80dp" android:layout_height="40dp"  android:background="@drawable/ctl_bar_03_selector" android:clickable="true" android:layout_gravity="center_vertical|center_horizontal" android:layout_marginRight="1dp" android:layout_marginLeft="1dp"/>
+		<Button android:id="@+id/LyricsBtn" android:layout_width="60dp" android:layout_height="40dp"  android:background="@drawable/ctl_bar_04_selector" android:clickable="true" android:layout_gravity="center_vertical|center_horizontal" android:layout_marginRight="1dp" android:layout_marginLeft="1dp"/>		
+	</LinearLayout>
+			
+
+</LinearLayout>
+ 

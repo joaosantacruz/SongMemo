@@ -1,0 +1,15 @@
+<resources>
+    <color name="CLR_BLUE">#00f</color>
+    <color name="CLR_RED">#f00</color>
+    <color name="CLR_GREEN">#0f0</color>
+    <color name="CLR_YELLOW">#ff0</color>
+    <color name="CLR_BLUE_DARK">#00a</color>
+    <color name="CLR_RED_DARK">#a00</color>
+    <color name="CLR_GREEN_DARK">#0a0</color>
+    <color name="CLR_YELLOW_DARK">#aa0</color>
+     <color name="CLR_GREY_LIGHT">#EEE</color>
+     <color name="CLR_GREY_DARK">#333</color>
+   <color name="white">#ffffffff</color> 
+    <color name="black">#ff000000</color> 
+    <color name="blue">#ffccddff</color>
+</resources>

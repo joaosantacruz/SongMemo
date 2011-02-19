@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SoundMemo</string>
+    <string name="startBtnText">Record</string>
+    <string name="stopBtnText">Stop</string>
+    <string name="playBtnText">Play</string>
+    <string name="muteBtnText">MUTE</string>
+    <string name="selRecBtnText">REC</string>
+</resources>

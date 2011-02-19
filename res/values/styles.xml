@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="btn_rec_sel" >
+    	<item name="android:layout_width">50px</item>
+    	<item name="android:layout_height">30px</item>
+    	<item name="android:clickable">true</item>
+       	<item name="android:text">@string/selRecBtnText</item>
+        <item name="android:textSize">15px</item>
+        <item name="android:textColor">@color/CLR_GREY_LIGHT</item>
+        <item name="android:background">@color/CLR_RED</item>
+    </style>
+
+    <style name="btn_mute_sel" >
+    	<item name="android:layout_width">50px</item>
+    	<item name="android:layout_height">30px</item>
+    	<item name="android:clickable">true</item>
+        <item name="android:text">@string/muteBtnText</item>
+        <item name="android:textSize">15px</item>
+        <item name="android:textColor">@color/CLR_GREY_LIGHT</item>
+        <item name="android:background">@color/CLR_GREY_DARK</item>
+    </style>
+    
+    <style name="btn_fader_up" >
+    	<item name="android:layout_width">50px</item>
+    	<item name="android:layout_height">30px</item>
+    	<item name="android:clickable">true</item>
+        <item name="android:text">+</item>
+        <item name="android:textSize">15px</item>
+        <item name="android:textColor">@color/CLR_GREY_LIGHT</item>
+        <item name="android:background">@color/CLR_GREY_DARK</item>
+    </style>
+    
+    <style name="btn_fader_down" >
+    	<item name="android:layout_width">50px</item>
+    	<item name="android:layout_height">30px</item>
+    	<item name="android:clickable">true</item>
+        <item name="android:text">-</item>
+        <item name="android:textSize">15px</item>
+        <item name="android:textColor">@color/CLR_GREY_LIGHT</item>
+        <item name="android:background">@color/CLR_GREY_DARK</item>
+    </style>
+
+</resources>
+
+
+

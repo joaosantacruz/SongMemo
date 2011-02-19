@@ -1,0 +1,9 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android"> 
+ 
+    <item android:drawable="@drawable/btn_rec_sel_pressed"
+          android:state_pressed="true" />
+    <item android:drawable="@drawable/btn_rec_sel_on"
+          android:state_selected="true" />
+    <item android:drawable="@drawable/btn_rec_sel_off" />
+    
+</selector>
